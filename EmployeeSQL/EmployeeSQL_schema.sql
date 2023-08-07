@@ -33,7 +33,7 @@ CREATE TABLE employees (
     first_name VARCHAR(30) NOT NULL,
     last_name VARCHAR(30) NOT NULL,
     sex VARCHAR(10) NOT NULL,
-    hire_date VARCHAR(20) NOT NULL,
+    hire_date DATE NOT NULL,
     CONSTRAINT pk_employees PRIMARY KEY (
         emp_no
      )
